@@ -1,0 +1,75 @@
+# Node / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+client/dist/
+server/dist/
+/.cache/
+
+# Angular
+.angular/
+.angular-cache/
+coverage/
+test-results/
+
+# Runtime / temp files
+.env
+.env.*
+.env.local
+.env.production.local
+.DS_Store
+Thumbs.db
+logs/
+*.log
+*.pid
+tmp/
+temp/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+ehthumbs.db
+Icon
+
+# TypeScript
+*.tsbuildinfo
+
+# npm pack
+*.tgz
+
+# Certs and keys (if you ever keep them locally)
+/certs/
+*.pem
+
+# PM2
+pm2.pid
+pm2.log
+
+# Docker
+docker-compose.override.yml
+
+# Misc
+/.sass-cache
+/.cache-loader
+coverage/
+nyc_output/
+
+# Ignore local assets that may be large or personal
+public/images/placeholder.png
+
+# Keep a sample env if you want to commit one
+!server/.env.example
+!client/.env.example
+
