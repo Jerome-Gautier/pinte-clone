@@ -6,7 +6,7 @@ import { RouterOutlet } from '@angular/router';
 import { AuthService } from './services/auth.service';
 import { Subscription } from 'rxjs';
 
-const AUTH_URL = '/auth/github';
+const AUTH_URL = '/pinte-clone/auth/github';
 
 @Component({
   selector: 'app-root',
@@ -97,7 +97,6 @@ export class AppComponent {
   }
 
   onAddImageClick(url: string, title: string) {
-    console.log('AppComponent.onAddImageClick called with:', { url, title });
     this.imagesService.addImage({ url, title }).subscribe((data) => {
       if (this.selected === 'myPics' || this.selected === 'all') {
         data.username = this.currentUser?.username || 'Unknown';

@@ -50,7 +50,7 @@ import { NgIf } from '@angular/common';
           <div class="user-container">
           <button *ngIf="isLoggedIn; else showLogin" (click)="logout.emit()">
             <img
-              src="/images/github-logo.svg"
+              src="images/github-logo.svg"
               alt="GitHub Logo"
               width="20"
               height="20"
@@ -60,7 +60,7 @@ import { NgIf } from '@angular/common';
           <ng-template #showLogin>
             <button (click)="loginRedirect.emit()">
               <img
-                src="/images/github-logo.svg"
+                src="images/github-logo.svg"
                 alt="GitHub Logo"
                 width="20"
                 height="20"

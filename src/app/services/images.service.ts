@@ -7,7 +7,7 @@ import { switchMap } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class ImagesService {
-  private apiUrl = '/api';
+  private apiUrl = '/api/pinte-clone';
 
   constructor(private http:HttpClient) {}
 
